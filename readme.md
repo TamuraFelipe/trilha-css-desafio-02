@@ -9,8 +9,8 @@ Este é um desafio de CSS baseado no curso de Formação CSS Web Developer da DI
 O desafio consiste em clonar a tela principal do YouTube, incluindo os seguintes elementos:
 
 - Cabeçalho com logotipo e caixa de pesquisa.
-- Barra de navegação com links para as diferentes seções do YouTube.
-- Seção de vídeos em formato de lista ou grade, exibindo os títulos, miniaturas e informações básicas dos vídeos.
+- Botão hamburguer.
+- Seção com vídeo principal e descrição.
 - Barra lateral com vídeos recomendados e informações adicionais.
 
 ## Conceitos Utilizados
@@ -29,4 +29,3 @@ Ao final do desafio, espera-se que você tenha criado um clone visualmente semel
 
 Este desafio é uma ótima oportunidade para praticar e aprofundar seus conhecimentos em CSS, além de fortalecer o entendimento sobre os conceitos de display, position e flexbox. Lembre-se de buscar referências, utilizar as ferramentas de desenvolvedor e explorar diferentes abordagens para chegar ao resultado desejado.
 
-Bom trabalho e divirta-se clonando a tela do YouTube!
