@@ -1,0 +1,177 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+:root{
+    font-size: 62.5%;
+}
+html {
+    font-family: 'roboto';
+}
+body {
+    height: 100vh;
+    background: #F9F9F9;
+    overflow-x: hidden;
+}
+button {
+    cursor: pointer;
+    transition: background .3s;
+}
+input {
+    padding-left: 1rem;
+    width: 100%;
+}
+video {
+    width: 100%;
+}
+h1 {
+    color: #000;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+p, span, h2, h3 {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+h2, h3 {
+    font-weight: 600;
+    color: #000;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2.4rem;
+    height: 5.6rem;
+    background: #fff;
+}
+.header .menu {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem; 
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.search {
+    display: flex;
+    width: 37rem;
+    height: 40px;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+}
+.btn-search {
+    background: #f8f8f8;
+    border-left: 1px solid #CCC;
+    border-radius: 0 6px 6px 0;
+    padding-inline: 1rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+.actions .avatar {
+    display: block;
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.4rem;
+    width: 100vw;
+    padding-inline: 7.5rem;
+    padding-block: 2.8rem 5.2rem;
+}
+
+.main {
+    flex-grow: 1;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+}
+.content .video {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.content .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content .content-actions {
+    display: flex;
+    align-items: center;
+    gap: 4.2rem;
+}
+.content .content-actions .btn-signup {
+    padding: 1.2rem 3.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    background: #C00;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    
+}
+.content .content-actions .btn-signup:hover {
+    background: rgb(206, 43, 43);
+}
+.content .content-actions .item {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+.content .content-actions .item p {
+    color: #000;
+    font-weight: 600;
+    
+}
+.content .description {
+    display: block;
+    max-width: 51rem;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    flex-basis: 37.2rem;
+}
+.videos .video-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+.videos .video-item img {
+    border-radius: .8rem;
+}
+.videos .video-item .item-description {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.videos .video-item .item-description p {
+     font-size: 12px;
+}
